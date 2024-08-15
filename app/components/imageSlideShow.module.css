@@ -1,0 +1,19 @@
+.inactive-slide {
+    display: none;
+}
+/* .slideimages{
+    width: 10%;
+} */
+.slideimages > h1 {
+    font-size: 20rem;
+}
+.active > img {
+    height: 320px;
+    width: 100%; 
+    border-radius: 1rem;
+}
+@media(max-width:800px){
+    .active >img {
+        height: 220px;
+    }
+}
